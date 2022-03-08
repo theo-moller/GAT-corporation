@@ -1,0 +1,67 @@
+body
+{
+    background-color: rgb(53, 52, 52);
+}
+nav.nous:hover{
+    transform: scale(50px);
+}
+h1{
+    color: red;
+    display: flex;
+    justify-content:space-around;
+    text-shadow: 6px 6px 10px black;
+}
+
+p.yo{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+}
+
+div.Photo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    animation: glisse 20s infinite ease;
+    
+}
+
+@keyframes glisse {
+    0% {
+        transform: translateX(0px);
+    }
+    25% {
+        transform: translateX(-150px);
+    }
+    50% {
+        transform: translateX(-250px);
+    }
+    75% {
+        transform: translateX(-400px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+
+p.Alexandre{
+    color: #fff;
+    display: flex;
+    justify-content: center;    
+}
+
+
+div.Photo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+

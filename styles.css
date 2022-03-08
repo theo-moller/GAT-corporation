@@ -57,7 +57,21 @@ p.Alexandre{
     justify-content: center;    
 }
 
+p.us
+{
+    color:#fff;
+}
 
+a.utilise
+{
+    color: #fff;
+}
+a.yo
+{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
 div.Photo2{
     display: flex;
     flex-direction: column;

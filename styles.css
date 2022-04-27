@@ -36,17 +36,20 @@ div.Photo
     0% {
         transform: translateX(0px);
     }
-    25% {
+    20% {
         transform: translateX(-150px);
     }
-    50% {
+    40% {
         transform: translateX(-250px);
     }
-    75% {
+    60% {
         transform: translateX(-400px);
     }
-    100% {
-        transform: translateX(0px);
+    80% {
+        transform: translateX(-650px);
+    }
+    100%{
+        transform: translate(-950px);
     }
 }
 
@@ -69,11 +72,15 @@ p.us
 p.decalage
 {
     color: #fff;
+    
+    
 }
 .flotant
 {
+    width: 500px;
+    height: 500px;
     vertical-align: middle;
-    
+    margin: 20px;
 }
 
 a.utilise

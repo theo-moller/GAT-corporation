@@ -54,12 +54,26 @@ div.Photo
 p.Alexandre{
     color: #fff;
     display: flex;
-    justify-content: center;    
+    justify-content: center;   
+    text-align: justify; 
+}
+p
+{
+    padding: 15px;
 }
 
 p.us
 {
     color:#fff;
+}
+p.decalage
+{
+    color: #fff;
+}
+.flotant
+{
+    vertical-align: middle;
+    
 }
 
 a.utilise
